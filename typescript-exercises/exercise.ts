@@ -17,11 +17,12 @@ interface TaskPriority extends Task {
 }
 
 // Create your task below:
-let fellowshipTask: Task = {
+let fellowshipTask: TaskPriority = {
     id: 1,
     title: "Programming Task",
     description: "Finish Pre-Program work for fellowship",
     dueDate: "June 9th 2025",
+    priority: Priority.High
 }
 
 // ONCE DONE, UNCOMMENT THE LINE BELOW AND RUN THE FILE
